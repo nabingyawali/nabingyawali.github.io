@@ -1,0 +1,110 @@
+.user-img {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.user-img>img {
+    border-radius: 100px;
+}
+
+.name {
+    text-align: center;
+    font-size: 25px;
+}
+
+.occu {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.contact-info {
+    border-bottom: 1px solid black;
+    width: 100%;
+    display: inline-flex;
+}
+
+.tel {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.tel:after,
+.email:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: .6em;
+    bottom: .6em;
+    width: 1px;
+    background-color: black;
+}
+
+.tel:last-child:after,
+.email:last-child::after {
+    display: none;
+}
+
+.email {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.address {
+    width: 100%;
+    text-align: center;
+}
+
+.education {
+    border-bottom: 1px solid black;
+    padding-right: 50px;
+    border-right: 1px solid black;
+}
+
+.about {
+    border-bottom: 1px solid black;
+}
+
+.about {
+    font-size: 22px;
+    padding-left: 50px;
+}
+
+.list>ul>li::marker {
+    content: "-";
+    padding-right: 5px;
+}
+
+.list>ul>li>span {
+    padding-left: 5px;
+}
+
+.int-ref {
+    border-bottom: 1px solid black;
+}
+
+.experience {
+    padding-right: 50px;
+}
+
+.skills {
+    padding-left: 50px;
+    border-left: 1px solid black;
+}
+
+.interest {
+    padding-right: 50px;
+}
+
+.references {
+    padding-left: 50px;
+    border-left: 1px solid black;
+}
+
+.cv-heading::after {
+    content: '';
+    width: 20%;
+    background: black;
+    position: absolute;
+}
